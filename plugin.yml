@@ -1,0 +1,17 @@
+name: ServerSelect
+main: sdt\Main
+author: sdsd16
+version: 1.0.0
+api: [3.0.0]
+description: SEXD & SDT 伺服器傳送
+
+commands:
+  server:
+    usage: /server
+    permission: server.command.player
+    description: 跨服傳送選單
+
+
+permissions:
+ server.command.player:
+  default: true
